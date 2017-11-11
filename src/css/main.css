@@ -279,3 +279,31 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+body {
+  font-size: 14px;
+  width: 980px;
+  margin: auto;
+}
+
+#header {
+
+}
+
+#header li {
+  display: inline-block;
+  border-bottom: solid 1px blue;
+  margin: 5px 10px;
+  height: 200px;
+  width: 200px;
+  background-image: url('../img/logo_chromium.png');
+}
+
+#header>nav>ul>.active {
+  background-color: #EEE;
+
+}
+
+.red {
+  color: red;
+}
